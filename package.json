@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "description": "Day One Content Operations",
+  "repository": "https://github.com/yamamotoimachado-svg/anozero",
   "scripts": {
     "dev": "pnpm run --parallel dev",
     "build": "pnpm run --parallel build"
