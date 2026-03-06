@@ -1,0 +1,32 @@
+{
+  "home": {
+    "newsTitle": "Notícias",
+    "allNews": "Todas as notícias"
+  },
+  "news": {
+    "anozero": "anozero'26"
+  },
+  "footer": {
+    "groupOneTitle": "O Anozero é organizado desde 2015 por",
+    "groupTwoTitle": "O CAPC é uma estrutura financiada por",
+    "contactsTitle": "Contacto",
+    "emailValue": "info@anozero-bienaldecoimbra.pt",
+    "emailLabel": "Email",
+    "hoursTitle": "Horário",
+    "socialTitle": "Redes sociais",
+    "places": {
+      "mosteiro": {
+        "title": "Mosteiro de Santa Clara-a-Nova",
+        "address": "Calçada de Santa Isabel (Alto de Santa Clara), 3040-270 Coimbra",
+        "phone": "+351 912 302 239",
+        "hours": "Seg–Sex: 10:00–18:00"
+      },
+      "circulo": {
+        "title": "Círculo Sereia",
+        "address": "Casa Municipal da Cultura, piso -1 Parque de Santa Cruz, Jardim da Sereia, 3000–401 Coimbra",
+        "phone": "+351 910 787 255",
+        "hours": "Seg–Sex: 10:00–18:00"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "home": {
+    "newsTitle": "News",
+    "allNews": "All news"
+  },
+  "news": {
+    "anozero": "anozero'26"
+  },
+  "footer": {
+    "groupOneTitle": "Anozero is organized since 2015 by",
+    "groupTwoTitle": "The CAPC is a structure financed by",
+    "contactsTitle": "Contact",
+    "emailLabel": "Email",
+    "emailValue": "info@anozero-bienaldecoimbra.pt",
+    "hoursTitle": "Opening hours",
+    "socialTitle": "Social media",
+    "places": {
+      "mosteiro": {
+        "title": "Santa Clara-a-Nova Monastery",
+        "address": "Calçada de Santa Isabel (Alto de Santa Clara), 3040-270 Coimbra",
+        "phone": "+351 912 302 239",
+        "hours": "Mon–Fri: 10:00–18:00"
+      },
+      "circulo": {
+        "title": "Círculo Sereia",
+        "address": "Casa Municipal da Cultura, piso -1 Parque de Santa Cruz, Jardim da Sereia3000–401 Coimbra",
+        "phone": "+351 910 787 255",
+        "hours": "Mon–Fri: 10:00–18:00"
+      }
+    }
+  }
+}
