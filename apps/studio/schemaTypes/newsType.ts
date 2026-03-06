@@ -1,4 +1,5 @@
 import {defineField, defineType} from 'sanity'
+import type {Rule} from 'sanity'
 
 export const newsType = defineType({
   name: 'news',
@@ -15,7 +16,7 @@ export const newsType = defineType({
           {title: 'English', value: 'en'},
         ],
       },
-      validation: (Rule) => Rule.required(),
+      validation: (Rule: Rule) => Rule.required(),
     }),
     defineField({
       name: 'translation',
@@ -66,7 +67,7 @@ export const newsType = defineType({
         source: 'title',
         maxLength: 96,
       },
-      validation: (Rule) => Rule.required(),
+      validation: (Rule: Rule) => Rule.required(),
     }),
     defineField({
       name: 'body',

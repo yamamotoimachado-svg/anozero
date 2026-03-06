@@ -7,6 +7,12 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "Preserve",
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
+    "paths": {
+      "sanity": ["node_modules/sanity"],
+      "sanity/*": ["node_modules/sanity/*"]
+    },
     "moduleDetection": "force",
     "isolatedModules": true,
     "jsx": "preserve",

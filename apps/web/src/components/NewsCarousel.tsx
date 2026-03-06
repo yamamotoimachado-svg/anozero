@@ -32,14 +32,14 @@ export default function NewsCarousel({
           <div className="flex items-center gap-2">
             <button
               onClick={() => scroll(-300)}
-              className="p-2 bg-gray-200 text-black hover:bg-[#DE0F19] hover:text-white flex-shrink-0 hover:cursor-pointer"
+              className="p-2 bg-gray-200 text-black hover:bg-[#DE0F19] hover:text-white shrink-0 hover:cursor-pointer"
               aria-label="Scroll left"
             >
               &#8592;
             </button>
             <button
               onClick={() => scroll(300)}
-              className="p-2 bg-gray-200 text-black hover:bg-[#DE0F19] hover:text-white flex-shrink-0 hover:cursor-pointer"
+              className="p-2 bg-gray-200 text-black hover:bg-[#DE0F19] hover:text-white shrink-0 hover:cursor-pointer"
               aria-label="Scroll right"
             >
               &#8594;
@@ -57,7 +57,7 @@ export default function NewsCarousel({
             key={item._id}
             href={`/news/${item.slug?.current ?? item._id}`}
             locale={locale}
-            className="group block flex-shrink-0 w-80 min-w-80"
+            className="group block shrink-0 w-80 min-w-80"
           >
             <div className="flex flex-col gap-4 p-6 hover:shadow-lg transition-shadow group-hover:bg-[#DE0F19] group-hover:text-white">
               <div className="flex justify-between text-xs text-gray-500 mb-1">
