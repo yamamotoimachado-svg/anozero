@@ -13,17 +13,26 @@
   --logo-width: clamp(240px, 22vw, 460px);
   --logo-year-gap: clamp(6px, 1.6vw, 28px);
   --year-left: calc(var(--logo-left) + var(--logo-width) + var(--logo-year-gap));
+  --label-bottom: clamp(16px, 3vw, 36px);
+  --label-left: var(--logo-left);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 900px) {
   .carouselContainer {
-    --logo-left: 12px;
+    --logo-left: 0px;
     --logo-width: clamp(180px, 48vw, 260px);
     --logo-year-gap: 1px;
+    --label-bottom: calc(clamp(56px, 12vw, 88px) + env(safe-area-inset-bottom));
+    --label-left: clamp(16px, 3vw, 36px);
   }
 
   .logo {
     top: 24px;
+    left: 0;
+  }
+
+  .slideLabel {
+    bottom: var(--label-bottom);
   }
 }
 
@@ -96,8 +105,8 @@
 
 .slideLabel {
   position: absolute;
-  left: clamp(16px, 3vw, 36px);
-  bottom: clamp(16px, 3vw, 36px);
+  left: var(--label-left);
+  bottom: var(--label-bottom);
   z-index: 5;
   color: white;
   font-size: clamp(12px, 1.6vw, 18px);
@@ -107,9 +116,52 @@
   pointer-events: none;
 }
 
+.scrollHint {
+  position: absolute;
+  right: clamp(16px, 3vw, 36px);
+  bottom: var(--label-bottom);
+  z-index: 6;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  color: white;
+  opacity: 0.8;
+  animation: scrollHintBounce 1.6s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.scrollHint::before {
+  content: "\02C5";
+  font-size: 22px;
+  line-height: 1;
+}
+
+@keyframes scrollHintBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(8px);
+    opacity: 1;
+  }
+}
+
 .overlay {
   position: absolute;
   right: clamp(16px, 3vw, 36px);
   transform: translateY(-50%);
   z-index: 25;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .carouselContainer {
+    --label-bottom: calc(clamp(56px, 12vw, 88px) + env(safe-area-inset-bottom));
+  }
+  .slideLabel {
+    bottom: var(--label-bottom);
+  }
 }

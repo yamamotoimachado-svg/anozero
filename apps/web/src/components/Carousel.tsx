@@ -131,6 +131,8 @@ export default function Carousel({ slides, logo, locale, overlay }: CarouselProp
         </div>
       ) : null}
 
+      <div className={styles.scrollHint} aria-hidden="true" />
+
       {/* MENU DE ANOS */}
       <div className={styles.yearColumn} ref={yearColumnRef}>
         <div
