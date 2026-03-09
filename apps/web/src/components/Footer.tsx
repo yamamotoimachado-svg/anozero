@@ -44,7 +44,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="border-t border-gray-200" data-locale={locale}>
+    <footer className="border-t border-gray-200 text-black" data-locale={locale}>
       <div className=" max-w-7xl mx-auto px-6 py-12">
         <div className="flex flex-col gap-16">
           <div>
@@ -57,7 +57,7 @@ export default function Footer() {
                   key={logo.alt}
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-8 w-24 sm:h-10 sm:w-28 [@media(max-width:385px)]:h-6 [@media(max-width:385px)]:w-20 object-contain"
+                  className="h-8 w-24 sm:h-10 sm:w-28 [@media(max-width:385px)]:h-6 [@media(max-width:385px)]:w-20 [@media(min-width:1000px)]:h-14 [@media(min-width:1000px)]:w-36 object-contain"
                 />
               ))}
             </div>
@@ -73,7 +73,7 @@ export default function Footer() {
                   key={logo.alt}
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-8 w-24 sm:h-10 sm:w-28 [@media(max-width:385px)]:h-6 [@media(max-width:385px)]:w-20 object-contain"
+                  className="h-8 w-24 sm:h-10 sm:w-28 [@media(max-width:385px)]:h-6 [@media(max-width:385px)]:w-20 [@media(min-width:1000px)]:h-14 [@media(min-width:1000px)]:w-36 object-contain"
                 />
               ))}
             </div>
