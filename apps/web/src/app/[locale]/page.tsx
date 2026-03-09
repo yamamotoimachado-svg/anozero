@@ -102,7 +102,7 @@ export default async function Home({params}: PageProps) {
         />
       </div>
 
-      <div className="home-parallax__content px-6 py-8">
+      <div className="home-parallax__content px-6 py-8" id="news">
         <div className="max-w-7xl mx-auto">
           <h1>—</h1>
           <NewsCarousel

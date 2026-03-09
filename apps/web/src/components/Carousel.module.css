@@ -124,7 +124,7 @@
   position: absolute;
   right: clamp(16px, 3vw, 36px);
   bottom: var(--label-bottom);
-  z-index: 6;
+  z-index: 30;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -133,7 +133,7 @@
   color: white;
   opacity: 0.8;
   animation: scrollHintBounce 1.6s ease-in-out infinite;
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .scrollHintIcon {
@@ -168,5 +168,11 @@
   }
   .slideLabel {
     bottom: var(--label-bottom);
+  }
+}
+
+@media (max-width: 385px) {
+  .active {
+    font-size: clamp(14px, 4vw, 18px);
   }
 }

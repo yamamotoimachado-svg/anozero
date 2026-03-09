@@ -133,16 +133,16 @@ export default function Carousel({ slides, logo, locale, overlay }: CarouselProp
         </div>
       ) : null}
 
-      <div className={styles.scrollHint} aria-hidden="true">
-          <Image
-           src={arrowIcon}
-           alt=""
-           aria-hidden="true"
-           className={styles.scrollHintIcon}
-           width={20}
-           height={20}
-          />
-      </div>
+      <a href="#news" className={styles.scrollHint} aria-label="Scroll to news">
+        <Image
+          src={arrowIcon}
+          alt=""
+          aria-hidden="true"
+          className={styles.scrollHintIcon}
+          width={20}
+          height={20}
+        />
+      </a>
 
       {/* MENU DE ANOS */}
       <div className={styles.yearColumn} ref={yearColumnRef}>
