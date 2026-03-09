@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import Image from "next/image";
+import arrowIcon from "../assets/seta.svg";
 import styles from "./Carousel.module.css";
 
 interface Slide {
@@ -131,7 +133,16 @@ export default function Carousel({ slides, logo, locale, overlay }: CarouselProp
         </div>
       ) : null}
 
-      <div className={styles.scrollHint} aria-hidden="true" />
+      <div className={styles.scrollHint} aria-hidden="true">
+          <Image
+           src={arrowIcon}
+           alt=""
+           aria-hidden="true"
+           className={styles.scrollHintIcon}
+           width={20}
+           height={20}
+          />
+      </div>
 
       {/* MENU DE ANOS */}
       <div className={styles.yearColumn} ref={yearColumnRef}>

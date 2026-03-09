@@ -57,7 +57,7 @@ export default function Footer() {
                   key={logo.alt}
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-10 w-28 object-contain"
+                  className="h-8 w-24 sm:h-10 sm:w-28 object-contain"
                 />
               ))}
             </div>
@@ -73,7 +73,7 @@ export default function Footer() {
                   key={logo.alt}
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-10 w-28 object-contain"
+                  className="h-8 w-24 sm:h-10 sm:w-28 object-contain"
                 />
               ))}
             </div>

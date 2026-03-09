@@ -32,24 +32,38 @@ export default function NewsCarousel({
           <div className="flex items-center gap-2">
             <button
               onClick={() => scroll(-300)}
-              className="p-2 text-black hover:text-[#DE0F19] shrink-0 hover:cursor-pointer"
+              className="group p-2 shrink-0 hover:cursor-pointer"
               aria-label="Scroll left"
             >
-              &lt;
+              <svg
+                viewBox="0 0 45.23 38.57"
+                aria-hidden="true"
+                className="h-4 w-4 -scale-x-100 text-black transition-colors group-hover:text-[#DE0F19]"
+                fill="currentColor"
+              >
+                <path d="M45.23,18.4v1.77l-19.52,18.4h-8.55l17.75-16.51H0v-5.54h34.91L17.16,0h8.55l19.52,18.4Z" />
+              </svg>
             </button>
             <button
               onClick={() => scroll(300)}
-              className="p-2 text-black hover:text-[#DE0F19] shrink-0 hover:cursor-pointer"
+              className="group p-2 shrink-0 hover:cursor-pointer"
               aria-label="Scroll right"
             >
-              &gt;
+              <svg
+                viewBox="0 0 45.23 38.57"
+                aria-hidden="true"
+                className="h-4 w-4 text-black transition-colors group-hover:text-[#DE0F19]"
+                fill="currentColor"
+              >
+                <path d="M45.23,18.4v1.77l-19.52,18.4h-8.55l17.75-16.51H0v-5.54h34.91L17.16,0h8.55l19.52,18.4Z" />
+              </svg>
             </button>
           </div>
         </div>
       ) : null}
       <div
         ref={containerRef}
-        className="flex gap-8 overflow-x-auto pb-4"
+        className="flex gap-4 overflow-x-auto pb-4"
         style={{ minWidth: 0 }}
       >
         {news.map((item: any) => (

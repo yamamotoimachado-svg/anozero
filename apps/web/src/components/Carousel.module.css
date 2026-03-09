@@ -34,6 +34,10 @@
   .slideLabel {
     bottom: var(--label-bottom);
   }
+
+  .active {
+    font-size: clamp(16px, 4.5vw, 20px);
+  }
 }
 
 /* LOGO */
@@ -132,10 +136,11 @@
   pointer-events: none;
 }
 
-.scrollHint::before {
-  content: "\02C5";
-  font-size: 22px;
-  line-height: 1;
+.scrollHintIcon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  transform: rotate(90deg);
 }
 
 @keyframes scrollHintBounce {
