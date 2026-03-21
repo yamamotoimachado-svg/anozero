@@ -13,6 +13,8 @@ import img5 from "../../assets/2020.jpg";
 import img6 from "../../assets/2019.png";
 import img7 from "../../assets/2017.jpg";
 import img8 from "../../assets/2015.jpg";
+import img0 from "../../assets/2026.webp";
+
 
 type PageProps = {
   params: {
@@ -41,6 +43,13 @@ export default async function Home({params}: PageProps) {
   const news = await getNews(locale);
 
   const slides = [
+    {
+      year: "2026",
+      image: img0.src,
+      href: "https://2026.anozero-bienaldecoimbra.pt",
+      name: {pt: "Dar, segurar, receber", en: "To hold, to give, to receive"},
+    },
+    
     {
       year: "Solo'2025",
       image: img1.src,
