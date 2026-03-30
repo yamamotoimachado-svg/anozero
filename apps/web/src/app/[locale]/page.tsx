@@ -46,8 +46,8 @@ export default async function Home({params}: PageProps) {
     {
       year: "2026",
       image: img0.src,
-      href: "https://2026.anozero-bienaldecoimbra.pt",
-      name: {pt: "Dar, segurar, receber", en: "To hold, to give, to receive"},
+      href: "https://anozero26bienaldecoimbra.pt/",
+      name: {pt: "Segurar, dar, receber", en: "To hold, to give, to receive"},
     },
     
     {
