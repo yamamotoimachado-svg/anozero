@@ -28,13 +28,10 @@
   },
   "about": {
     "title": "Sobre o Anozero",
-    "intro": "O Anozero é uma bienal de arte contemporânea realizada em Coimbra, Portugal, dedicada à promoção da criação artística e do diálogo cultural. Desde a sua primeira edição em 2015, o Anozero estabeleceu-se como um dos eventos de arte contemporânea mais importantes de Portugal, reunindo artistas nacionais e internacionais numa celebração de criatividade e inovação.",
-    "missionTitle": "Nossa Missão",
-    "missionText": "Criar uma plataforma para a arte contemporânea que promova o diálogo entre artistas, curadores e o público, fortalecendo a posição de Coimbra como centro cultural.",
-    "historyTitle": "História",
-    "historyText": "Desde a sua primeira edição em 2015, o Anozero estabeleceu-se como um dos eventos de arte contemporânea mais importantes de Portugal, reunindo artistas nacionais e internacionais numa celebração de criatividade e inovação.",
-    "visionTitle": "Nossa Visão",
-    "visionText": "Vislumbramos um futuro onde a arte contemporânea seja acessível a todos, criando conexões significativas entre comunidades diversas e promovendo o entendimento cultural através da expressão artística."
+    "intro": "Anozero – Bienal de Coimbra é uma iniciativa proposta em 2015 pelo Círculo de Artes Plásticas de Coimbra, organizada em conjunto com a Câmara Municipal de Coimbra e a Universidade de Coimbra, que assume como objetivo primordial promover uma reflexão quanto à circunstância da classificação da Universidade de Coimbra, Alta e Sofia como Património Mundial da Humanidade pela UNESCO.",
+    "missionText": "Surgindo como tentativa de compreensão do significado simbólico e efetivo desta nova realidade da cidade – ser detentora de Património Mundial – a bienal propõe um confronto entre arte contemporânea e património, explorando os riscos e as múltiplas possibilidades associadas a este património cultural que agora é da Humanidade.",
+    "historyText": "O Anozero é, portanto, um programa de ação para a cidade que, através de um questionamento sistemático sobre o território em que se inscreve, poderá contribuir para a construção de uma época cultural atuante e transformadora, em Coimbra e na Região Centro.",
+    "visionText": ""
   },
   "footer": {
     "groupOneTitle": "O Anozero é organizado desde 2015 por",

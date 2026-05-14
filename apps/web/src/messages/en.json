@@ -28,13 +28,10 @@
   },
   "about": {
     "title": "About Anozero",
-    "intro": "Anozero is a contemporary art biennial held in Coimbra, Portugal, dedicated to promoting artistic creation and cultural dialogue. Since its first edition in 2015, Anozero has established itself as one of Portugal's most important contemporary art events, bringing together national and international artists in a celebration of creativity and innovation.",
-    "missionTitle": "Our Mission",
-    "missionText": "To create a platform for contemporary art that fosters dialogue between artists, curators, and the public, while strengthening Coimbra's position as a cultural center.",
-    "historyTitle": "History",
-    "historyText": "Since its first edition in 2015, Anozero has established itself as one of Portugal's most important contemporary art events, bringing together national and international artists in a celebration of creativity and innovation.",
-    "visionTitle": "Our Vision",
-    "visionText": "We envision a future where contemporary art is accessible to all, creating meaningful connections between diverse communities and fostering cultural understanding through artistic expression."
+    "intro": "Anozero – Coimbra Biennial is an initiative proposed in 2015 by the Círculo de Artes Plásticas de Coimbra, organized together with the Coimbra City Council and the University of Coimbra, whose primary objective is to promote reflection on the circumstances of the classification of the University of Coimbra, Alta and Sofia as a UNESCO World Heritage Site.",
+    "missionText": "Emerging as an attempt to understand the symbolic and effective meaning of this new reality of the city – being a holder of World Heritage – the biennial proposes a confrontation between contemporary art and heritage, exploring the risks and multiple possibilities associated with this cultural heritage that now belongs to Humanity.",
+    "historyText": "Anozero is, therefore, an action program for the city that, through systematic questioning about the territory in which it is inscribed, can contribute to building an active and transformative cultural era in Coimbra and the Central Region.",
+    "visionText": ""
   },
   "footer": {
     "groupOneTitle": "Anozero is organized since 2015 by",
