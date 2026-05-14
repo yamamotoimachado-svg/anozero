@@ -6,6 +6,36 @@
   "news": {
     "anozero": "anozero'26"
   },
+  "amigoAnozero": {
+    "title": "Amigo Anozero",
+    "intro": "Ser «Amigo Anozero» é pertencer a um restrito grupo de dedicados filantropos, amantes das artes e cidadãos, que se empenha na reunião de condições para a concretização desta bienal. O desígnio é ainda fomentar um espírito de proximidade que permitirá acompanhar em condições exclusivas os artistas e curadores de cada edição da bienal. Desde a primeira edição, o Anozero tem procurado muito ativamente o apoio de empresas locais, regionais, nacionais e internacionais, seja através de donativos ou prestação de serviços.",
+    "support": "Desde a primeira edição, o Anozero tem procurado muito ativamente o apoio de empresas locais, regionais, nacionais e internacionais, seja através de donativos ou prestação de serviços.",
+    "impact": "Apoiar a bienal enquanto seu «Amigo» é permitir que ela continue a desenvolver-se como um dos projetos estruturantes na área, permitindo em simultâneo a criação e circulação de obras de relevantes artistas nacionais e internacionais, bem como o lançamento de novos criadores.",
+    "benefits": "Enquanto «Amigo Anozero», prevemos que tenha acesso a ações inéditas, como a Festa dos Amigos Anozero, o sorteio de obras de artistas e condições especiais de aquisição de múltiplos de arte.",
+    "tiersTitle": "MODALIDADES",
+    "tiers": {
+      "mecenas": "AMIGO MECENAS",
+      "patrono": "AMIGO PATRONO",
+      "solidario": "AMIGO SOLIDÁRIO",
+      "benfeitor": "AMIGO BENFEITOR",
+      "protetor": "AMIGO PROTETOR",
+      "camarada": "AMIGO CAMARADA"
+    },
+    "becomeAFriend": "Quero ser Amigo Anozero",
+    "taxBenefitsTitle": "BENEFÍCIOS FISCAIS",
+    "taxBenefitsText": "Ao abrigo do regime de mecenato cultural, de acordo com a legislação em vigor, as contribuições para o Círculo de Artes Plásticas de Coimbra/Anozero – Bienal de Coimbra integram o conceito de donativo para efeitos do disposto no Artigo 61.º e seguintes, do Decreto-Lei n.º 215/89, de 1 de julho, republicado e renumerado pelo Decreto-Lei n.º 108/2008, de 26 de julho, que aprovou o Estatuto dos Benefícios Fiscais.",
+    "contactText": "Caso necessite de nos contactar: +351 910 787 255 / geral@capc.com.pt"
+  },
+  "about": {
+    "title": "Sobre o Anozero",
+    "intro": "O Anozero é uma bienal de arte contemporânea realizada em Coimbra, Portugal, dedicada à promoção da criação artística e do diálogo cultural. Desde a sua primeira edição em 2015, o Anozero estabeleceu-se como um dos eventos de arte contemporânea mais importantes de Portugal, reunindo artistas nacionais e internacionais numa celebração de criatividade e inovação.",
+    "missionTitle": "Nossa Missão",
+    "missionText": "Criar uma plataforma para a arte contemporânea que promova o diálogo entre artistas, curadores e o público, fortalecendo a posição de Coimbra como centro cultural.",
+    "historyTitle": "História",
+    "historyText": "Desde a sua primeira edição em 2015, o Anozero estabeleceu-se como um dos eventos de arte contemporânea mais importantes de Portugal, reunindo artistas nacionais e internacionais numa celebração de criatividade e inovação.",
+    "visionTitle": "Nossa Visão",
+    "visionText": "Vislumbramos um futuro onde a arte contemporânea seja acessível a todos, criando conexões significativas entre comunidades diversas e promovendo o entendimento cultural através da expressão artística."
+  },
   "footer": {
     "groupOneTitle": "O Anozero é organizado desde 2015 por",
     "groupTwoTitle": "O CAPC é uma estrutura financiada por",

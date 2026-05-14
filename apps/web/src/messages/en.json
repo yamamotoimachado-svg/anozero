@@ -6,6 +6,36 @@
   "news": {
     "anozero": "anozero'26"
   },
+  "amigoAnozero": {
+    "title": "Anozero Friend",
+    "intro": "Being an «Anozero Friend» means belonging to a select group of dedicated philanthropists, art lovers and citizens, committed to creating the conditions for this biennial to take place. The purpose is also to foster a spirit of proximity that will allow you to follow the artists and curators of each edition of the biennial under exclusive conditions. Since the first edition, Anozero has very actively sought the support of local, regional, national and international companies, either through donations or service provision.",
+    "support": "Since the first edition, Anozero has very actively sought the support of local, regional, national and international companies, either through donations or service provision.",
+    "impact": "Supporting the biennial as its «Friend» allows it to continue to develop as one of the structural projects in the area, while simultaneously enabling the creation and circulation of works by relevant national and international artists, as well as the launch of new creators.",
+    "benefits": "As an «Anozero Friend», we expect you to have access to unique actions, such as the Anozero Friends Party, the drawing of works by artists and special conditions for acquiring art multiples.",
+    "tiersTitle": "MEMBERSHIP TIERS",
+    "tiers": {
+      "mecenas": "FRIEND PATRON",
+      "patrono": "FRIEND SPONSOR",
+      "solidario": "FRIEND SUPPORTER",
+      "benfeitor": "FRIEND BENEFACTOR",
+      "protetor": "FRIEND PROTECTOR",
+      "camarada": "FRIEND COMRADE"
+    },
+    "becomeAFriend": "Become an Anozero Friend",
+    "taxBenefitsTitle": "TAX BENEFITS",
+    "taxBenefitsText": "Under the cultural patronage regime, in accordance with current legislation, contributions to the Círculo de Artes Plásticas de Coimbra/Anozero – Bienal de Coimbra fall within the concept of donation for the purposes of Article 61 and following of Decree-Law No. 215/89, of July 1st, republished and renumbered by Decree-Law No. 108/2008, of July 26th, which approved the Tax Benefits Statute.",
+    "contactText": "If you need to contact us: +351 910 787 255 / geral@capc.com.pt"
+  },
+  "about": {
+    "title": "About Anozero",
+    "intro": "Anozero is a contemporary art biennial held in Coimbra, Portugal, dedicated to promoting artistic creation and cultural dialogue. Since its first edition in 2015, Anozero has established itself as one of Portugal's most important contemporary art events, bringing together national and international artists in a celebration of creativity and innovation.",
+    "missionTitle": "Our Mission",
+    "missionText": "To create a platform for contemporary art that fosters dialogue between artists, curators, and the public, while strengthening Coimbra's position as a cultural center.",
+    "historyTitle": "History",
+    "historyText": "Since its first edition in 2015, Anozero has established itself as one of Portugal's most important contemporary art events, bringing together national and international artists in a celebration of creativity and innovation.",
+    "visionTitle": "Our Vision",
+    "visionText": "We envision a future where contemporary art is accessible to all, creating meaningful connections between diverse communities and fostering cultural understanding through artistic expression."
+  },
   "footer": {
     "groupOneTitle": "Anozero is organized since 2015 by",
     "groupTwoTitle": "The CAPC is a structure financed by",

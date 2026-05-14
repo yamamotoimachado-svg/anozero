@@ -3,6 +3,7 @@ import {client} from "../../sanity/client";
 import Carousel from "../../components/Carousel";
 import NewsCarousel from "../../components/NewsCarousel";
 import LocaleSwitcher from "../../components/LocaleSwitcher";
+import {Link} from "../../navigation";
 
 import logo from "../../assets/logo.png";
 import img1 from "../../assets/2025.jpg";
@@ -47,7 +48,7 @@ export default async function Home({params}: PageProps) {
       year: "2026",
       image: img0.src,
       href: "https://anozero26bienaldecoimbra.pt/",
-      name: {pt: "Segurar, dar, receber", en: "To hold, to give, to receive"},
+      name: {pt: "Segurar, Dar, Receber", en: "To hold, to give, to receive"},
     },
     
     {
@@ -119,6 +120,34 @@ export default async function Home({params}: PageProps) {
             news={news}
             locale={locale as "pt" | "en"}
           />
+          
+          <div className="mt-12">
+            <h1>—</h1>
+            <h1 className="text-3xl font-bold mb-2">
+              <Link href="/amigo-anozero" className="hover:text-[#DE0F19] transition-colors">
+                Amigo Anozero
+              </Link>
+            </h1>
+            <div className="text-gray-600 pl-4">
+              <p className="line-clamp-3 wrap-break-word leading-relaxed">
+                {t("amigoAnozero.intro")}
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-12">
+            <h1>—</h1>
+            <h1 className="text-3xl font-bold mb-2">
+              <Link href="/about" className="hover:text-[#DE0F19] transition-colors">
+                {t("about.title")}
+              </Link>
+            </h1>
+            <div className="text-gray-600 pl-4">
+              <p className="line-clamp-3 wrap-break-word leading-relaxed">
+                {t("about.intro")}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
